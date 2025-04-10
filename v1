@@ -11,13 +11,6 @@ a.load = function(b)
     return a.cache[b].c
 end
 
-local killerlist = {
-    ['1x1x1x1'] = true;
-    ['John Doe'] = true;
-    ['c00lkidd'] = true; 
-    ['Jason'] = true;
- }
-
 do
     function a.generator()
         return setmetatable({
